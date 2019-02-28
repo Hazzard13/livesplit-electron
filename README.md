@@ -1,7 +1,7 @@
 # Livesplit Electron
 *A simple electron wrapper for LiveSplit.org.*
 
-Note: Don't ask for support, I'm not going to support it. I did this for me myself and I. If you find a bug, you're more than welcome to submit a pull request or fork it. I don't care, seriously- not going to hurt my feelings I promise.
+Note: Don't ask for support, I'm not going to support it. I did this for me, myself, and I. If you find a bug, you're more than welcome to submit a pull request or fork it. I don't care, seriously- not going to hurt my feelings I promise.
 
 ### What You Need:
 * NodeJS Installed (10.15 or Higher)
@@ -14,7 +14,7 @@ Note: Don't ask for support, I'm not going to support it. I did this for me myse
 * yarn start
 
 
-### Build Binary
+### Build Binary:
 * gulp build
 
 
