@@ -42,7 +42,7 @@ function taskBuildLinux() {
 	} else {
 		execSync('mv ./dist/linux-ia32-unpacked ./dist/livesplit-electron', {stdio: 'inherit'});
 	}
-	
+
 	sectionOutput('Copying Icon');
 	execSync('cp ./app/icons/icon.png ./dist/livesplit-electron/icon.png', {stdio: 'inherit'});
 	sectionOutput('Compressing Package');
@@ -119,7 +119,7 @@ function taskBuildDarwin() {
 	sectionOutput('Building Package');
 	execSync('yarn build', {stdio: 'inherit'});
 	sectionOutput('Renaming Package');
-	execSync(`mv ./dist/*.dmg ./dist/livesplit-electron-${version}${unstable}-x64-mac.dmg`, {stdio: 'inherit'});
+	execSync(`mv ./dist/*.zip ./dist/livesplit-electron-${version}${unstable}-x64-mac.zip`, {stdio: 'inherit'});
 
 	sectionOutput('Build Finished');
 
