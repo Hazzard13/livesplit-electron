@@ -1,22 +1,29 @@
 # Livesplit Electron
 *A simple electron wrapper for LiveSplit.org.*
 
-Note: Don't ask for support, I'm not going to support it. I did this for me, myself, and I. If you find a bug, you're more than welcome to submit a pull request or fork it. I don't care, seriously- not going to hurt my feelings I promise.
+This fixes building on Mac OS Catalina for [KernelZechs/livesplit-electron](https://github.com/KernelZechs/livesplit-electron), which has been abandoned. It also updates the readme to be more accessible.
+
+Livesplit Electron is an absolutely minimal wrapper for [LiveSplit One](https://one.livesplit.org). This allows you to run livesplit on non-windows platform without the overhead of a full browser, and a more app-like experience.
+
+Note: I have no intention of undertaking serious work to maintain this. It's simply an interim solution until [LiveSplit One](https://github.com/LiveSplit/LiveSplitOne) completes their own electron wrapper, or native apps for each platform. That said, if you make improvements, you're more than welcome to submit a pull request and I'll review it when I have time. This could likely be greatly improved by updating electron, for example. However, rebuilding this from scratch with a newer version would likely be easier than upgrading this one, due to the simplicity of it.
 
 ### What You Need:
 * NodeJS Installed (10.15 or Higher)
 * Yarn and Gulp Installed Globally
 * GCC/CLang/XCode/Visual Studio (Building Only)
 
-
 ### Development Mode:
 * yarn install
 * yarn start
 
-
 ### Build Binary:
+* npm install
 * gulp build
 
+### Known Issues:
+Prompts to enter text don't do anything. This breaks, for example, importing splits from [splits.io](https://splits.io), or renaming a set of splits.
+
+My recommendation to circumnavigate this is to setup your splits as you'd like in the [web version](https://one.livesplit.org), export to a file, and import that file into this version.
 
 ### License
 Copyright 2019 Anthony 'Dragoni' Mattera
