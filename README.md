@@ -5,7 +5,7 @@ This fixes building on Mac OS Catalina for [KernelZechs/livesplit-electron](http
 
 Livesplit Electron is an absolutely minimal wrapper for [LiveSplit One](https://one.livesplit.org). This allows you to run livesplit on non-windows platform without the overhead of a full browser, and a more app-like experience.
 
-Note: I have no intention of undertaking serious work to maintain this. It's simply an interim solution until [LiveSplit One](https://github.com/LiveSplit/LiveSplitOne) completes their own electron wrapper, or native apps for each platform. That said, if you make improvements, you're more than welcome to submit a pull request and I'll review it when I have time. This could likely be greatly improved by updating electron, for example. However, rebuilding this from scratch with a newer version would likely be easier than upgrading this one, due to the simplicity of it.
+_Note: I have no intention of undertaking serious work to maintain this. It's simply an interim solution until [LiveSplit One](https://github.com/LiveSplit/LiveSplitOne) completes their own electron wrapper, or native apps for each platform. That said, if you make improvements, you're more than welcome to submit a pull request and I'll review it when I have time. This could likely be greatly improved by updating electron, for example. However, rebuilding this from scratch with a newer version would likely be easier than upgrading this one, due to the simplicity of it._
 
 ### What You Need:
 * NodeJS Installed (10.15 or Higher)
